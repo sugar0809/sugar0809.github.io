@@ -1,0 +1,50 @@
+.social {
+  display: flex;
+}
+
+.blog_title {
+  font-size: 32px;
+  margin-bottom: 5px;
+  padding-bottom: 10px;
+  color: #855d51;
+  font-weight: bold;
+  border-bottom: #ba8776 solid 3px;
+}
+
+.blog_date {
+  margin-bottom: 20px;
+}
+
+.blog_body {
+  font-size: 18px;
+  font-family: -apple-system, BlinkMacSystemFont, "Helvetica Neue", "Segoe UI", Hiragino Kaku Gothic ProN, "ヒラギノ角ゴ ProN W3", Arial, "メイリオ", Meiryo, sans-serif;
+
+  h2 {
+    font-size: 24px;
+    color: #855d51;
+    margin: 40px 0 10px;
+    padding-bottom: 6px;
+    font-weight: bold;
+    border-bottom: #ba8776 solid 3px;
+  }
+
+  p {
+    margin-bottom: 20px;
+    line-height: 36px;
+  }
+  
+  img {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+
+  ul {
+    list-style: disc;
+    font-weight: bold;
+    padding-left: 20px;
+  }
+
+  li {
+    list-style: disc;
+  }
+}
