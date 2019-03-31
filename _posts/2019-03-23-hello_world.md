@@ -6,8 +6,6 @@ permalink: /blog/2019/03/23/hello-world/
 image: /assets/images/2017-01-28-22.05.38_2.jpg
 category: 未分類
 ---
-こんにちは、sugarです。
-
 これまでinstagramやFacebookでの投稿が主だったのですが、ちゃんと自分のものづくりを記録したいと思った＆ものづくりに興味ある人の少しでも役に立てばと思い、ブログ始めることにしました。
 
 ## このブログで扱う内容
