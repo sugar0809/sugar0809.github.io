@@ -177,6 +177,7 @@ $post-li-sp-left-width: 38%;
 
 .post-li-image {
   width: $post-li-image-width;
+  object-fit: cover;
 
   @include media-query($breakpoint-sp) {
     width: 100%;

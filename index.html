@@ -6,7 +6,7 @@ layout: default
   <li class="post-li">
     <a class="post-li-link" href="{{ post.url }}">
       <div class="post-li-left">
-        <img class="post-li-image" src="{% if post.image %}{{ post.image }}{% else %}{{ site.og_image }}{% endif %}" alt="{{ post.title }}">
+        <img class="post-li-image" src="{% if post.image %}{{ post.image }}{% else %}{{ site.og_image }}{% endif %}" alt="{{ post.title }}" width="320" height="180">
       </div>
       <div class="post-li-right">
         <div class="post-li-title">{{ post.title }}</div>
