@@ -11,18 +11,10 @@ layout: default
       <div class="post-li-right">
         <div class="post-li-title">{{ post.title }}</div>
         <div class="post-li-summary">
-          {{ post.content | strip_html | strip_newlines | truncate: 160 }}
+          {{ post.content | strip_html | strip_newlines | truncate: 120 }}
         </div>
       </div>
     </a>
-    <!-- <div class="post-info">
-      <p class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</p>
-      <div class="post-tags">
-        {% for tag in post.tags %}
-        <a href="/tag/{{ tag }}/">{{ tag }}</a>
-        {% endfor %}
-      </div>
-    </div> -->
   </li>
   {% endfor %}
 </ul>
