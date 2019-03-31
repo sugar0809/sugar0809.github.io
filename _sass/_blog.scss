@@ -3,6 +3,7 @@ $side-padding: 30px;
 $side-bar-width: 336px;
 $content-width: calc(100% - #{$side-bar-width} - 40px);
 $breakpoint: 1020px;
+$breakpoint-sp: 600px;
 $font-color: #333;
 $font-color-light: #666;
 $link-color: #0088a8;
@@ -124,7 +125,6 @@ $side-box-side-margin: 10px;
 }
 
 .post-li {
-  width: $content-width;
   margin-bottom: 20px;
 
   @include media-query($breakpoint) {
@@ -140,22 +140,47 @@ $side-box-side-margin: 10px;
   &:hover {
     background: $side-title-bg-color;
   }
+
+  @include media-query($breakpoint-sp) {
+    display: block;
+  }
 }
 
 $post-li-image-width: 320px;
 $post-li-image-margin: 10px;
+$post-li-sp-left-width: 38%;
 
 .post-li-left {
   width: $post-li-image-width;
   margin-right: $post-li-image-margin;
+
+  @include media-query($breakpoint) {
+    width: $post-li-sp-left-width;
+  }
+
+  @include media-query($breakpoint-sp) {
+    width: 100%;
+  }
 }
 
 .post-li-right {
-  width: calc(100% - $post-li-image-width - $post-li-image-margin);
+  width: calc(100% - #{$post-li-image-width} - #{$post-li-image-margin});
+
+  @include media-query($breakpoint) {
+    width: calc(100% - #{$post-li-sp-left-width});
+  }
+
+  @include media-query($breakpoint-sp) {
+    width: 100%;
+  }
 }
 
 .post-li-image {
   width: $post-li-image-width;
+
+  @include media-query($breakpoint-sp) {
+    width: 100%;
+  }
 }
 
 .post-li-title {
@@ -198,6 +223,11 @@ $post-li-image-margin: 10px;
 
   li {
     list-style: disc;
+  }
+
+  h3 {
+    border-bottom: 1px solid $border-color;
+    padding-bottom: 5px;
   }
 }
 
