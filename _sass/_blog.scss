@@ -1,3 +1,139 @@
+$site-width: 1236px;
+$content-width: 860px;
+$font-color: #333;
+$font-color-light: #666;
+$link-color: #0088a8;
+$side-title-bg-color: #f3f4f5;
+
+body {
+  margin: 0;
+  font-size: 18px;
+  font-family: -apple-system, BlinkMacSystemFont, "Helvetica Neue", "Segoe UI", Hiragino Kaku Gothic ProN, "ヒラギノ角ゴ ProN W3", Arial, "メイリオ", Meiryo, sans-serif;
+  color: $font-color;
+}
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+h1, h2, h3 {
+  margin: 0;
+  padding: 0;
+}
+
+.header-in {
+  width: $site-width;
+  margin: 0 auto;
+  padding: 20px 0 60px;
+  text-align: center;
+}
+
+.tagline {
+  font-family: "游ゴシック体", "Yu Gothic", "Hiragino Kaku Gothic Pro", "Meiryo", sans-serif;
+  margin: 10px 0 20px;
+  font-size: 16px;
+  color: $font-color-light;
+}
+
+.navi-area {
+  margin-left: auto;
+}
+
+.navi-link {
+  font-family: "游ゴシック体", "Yu Gothic", "Hiragino Kaku Gothic Pro", "Meiryo", sans-serif;
+  color: $link-color;
+  text-decoration: none;
+  margin-left: 30px;
+  font-weight: bold;
+}
+
+.content-in {
+  display: flex;
+  width: $site-width;
+  margin: 0 auto;
+}
+
+main {
+  width: $content-width;
+}
+
+$side-box-side-margin: 20px;
+
+.side-bar {
+  width: calc(100% - #{$content-width} - 40px);
+  margin-left: auto;
+}
+
+.side-box-title {
+  background: $side-title-bg-color;
+  padding: 16px $side-box-side-margin;
+}
+
+.side-box-content {
+  padding: 20px $side-box-side-margin 40px;
+}
+
+.side-box-link {
+  color: $font-color;
+  text-decoration: none;
+}
+
+.footer-in {
+  width: $site-width;
+  margin: 0 auto;
+  padding: 40px 0 20px;
+}
+
+.copyright {
+  text-align: center;
+}
+
+.post-ul {
+  list-style: none;
+}
+
+.post-li {
+  width: $content-width;
+}
+
+.post-li-link {
+  display: flex;
+  color: $font-color;
+  text-decoration: none;
+
+  &:hover {
+    background: $side-title-bg-color;
+  }
+}
+
+$post-li-image-width: 320px;
+$post-li-image-margin: 10px;
+
+.post-li-left {
+  width: $post-li-image-width;
+  margin-right: $post-li-image-margin;
+}
+
+.post-li-right {
+  width: calc(100% - $post-li-image-width - $post-li-image-margin);
+}
+
+.post-li-image {
+  width: $post-li-image-width;
+}
+
+.post-li-title {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.post-li-summary {
+  font-size: 16px;
+  overflow-wrap: break-word;
+}
+
 .social {
   display: flex;
 }
@@ -16,8 +152,6 @@
 }
 
 .blog_body {
-  font-size: 18px;
-  font-family: -apple-system, BlinkMacSystemFont, "Helvetica Neue", "Segoe UI", Hiragino Kaku Gothic ProN, "ヒラギノ角ゴ ProN W3", Arial, "メイリオ", Meiryo, sans-serif;
 
   h2 {
     font-size: 24px;
@@ -32,7 +166,7 @@
     margin-bottom: 20px;
     line-height: 36px;
   }
-  
+
   img {
     width: 100%;
     margin-bottom: 20px;

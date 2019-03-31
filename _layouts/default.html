@@ -1,0 +1,115 @@
+<!doctype html>
+<html lang="ja">
+
+<head>
+
+
+<meta charset="utf-8">
+
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+<meta name="HandheldFriendly" content="True">
+<meta name="MobileOptimized" content="320">
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+
+<title>{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</title>
+<meta name="description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
+
+<!-- OGP -->
+{% if page.title %}
+<meta property="og:type" content="article" />
+<meta property="og:title" content="{{ page.title }}" />
+{% else %}
+<meta property="og:type" content="blog" />
+<meta property="og:title" content="{{ site.title }}" />
+{% endif %}
+<meta property="og:description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}" />
+<meta property="og:site_name" content="{{site.title}}" />
+<meta property="og:url" content="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}" />
+<meta property="og:image" content="{{ site.url }}{% if page.image %}{{ page.image }}{% else %}{{ site.og_image }}{% endif %}" />
+<!-- /OGP -->
+
+<!-- Twitter Card -->
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
+<meta name="twitter:title" content="{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}">
+<meta name="twitter:url" content="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
+<meta name="twitter:image" content="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
+<meta name="twitter:domain" content="ayakasato.com">
+<!-- /Twitter Card -->
+
+<link rel="icon" href="/assets/images/cropped-ayakalogo-1-2-32x32.png" sizes="32x32" />
+<link rel="icon" href="/assets/images/cropped-ayakalogo-1-2-192x192.png" sizes="192x192" />
+<link rel="apple-touch-icon-precomposed" href="/assets/images/cropped-ayakalogo-1-2-180x180.png" />
+<meta name="msapplication-TileImage" content="/assets/images/cropped-ayakalogo-1-2-270x270.png" />
+<link href="/assets/css/blog.css" rel="stylesheet" type="text/css" />
+
+{% include head_scripts.html %}
+
+</head>
+
+<body>
+
+<div class="container">
+  <div class="header-container">
+    <div class="header-container-in">
+      <header class="header">
+        <div class="header-in">
+          <div class="logo-area">
+              <div class="logo">
+                <a href="/" class="site-name">
+                  <img src="/assets/images/blogtitle.png" width="300" alt="{{ site.title }}">
+                </a>
+              </div>
+              <div class="tagline">3Dプリンター、料理、家具作り、電子工作などものづくりのノウハウを共有するブログ</div>
+          </div>
+          <div class="navi-area">
+            <a class="navi-link" href="/">TOP</a>
+            <a class="navi-link" href="/profile">PROFILE</a>
+            <a class="navi-link" href="/projects">PROJECTS</a>
+          </div>
+        </div>
+      </header>
+    </div><!-- /.header-container-in -->
+  </div><!-- /.header-container -->
+
+  <div class="content">
+    <div class="content-in">
+      <main>{{ content }}</main>
+
+      <div class="side-bar">
+        <aside class="side-box">
+          <h3 class="side-box-title">プロフィール</h3>
+          <div class="side-box-content">
+            sugar
+          </div>
+        </aside>
+        <aside class="side-box">
+          <h3 class="side-box-title">最近の投稿</h3>
+          <div class="side-box-content">
+            <ul class="side-box-ul">
+              {% for post in site.posts limit:5 %}
+              <li>
+                <a class="side-box-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+              </li>
+              {% endfor %}
+            </ul>
+          </div>
+        </aside>
+      </div>
+    </div>
+  </div>
+
+  <footer class="footer">
+    <div class="footer-in">
+      <div class="copyright">© 2019 Sugar&#039;s DIY Days.</div>
+    </div>
+  </footer>
+
+</div>
+
+</body>
+
+</html>
+
+
