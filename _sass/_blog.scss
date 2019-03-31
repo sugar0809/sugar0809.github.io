@@ -4,10 +4,13 @@ $font-color: #333;
 $font-color-light: #666;
 $link-color: #0088a8;
 $side-title-bg-color: #f3f4f5;
+$border-color: #ccc;
+$border-thick-color: #777;
 
 body {
   margin: 0;
   font-size: 18px;
+  line-height: 36px;
   font-family: -apple-system, BlinkMacSystemFont, "Helvetica Neue", "Segoe UI", Hiragino Kaku Gothic ProN, "ヒラギノ角ゴ ProN W3", Arial, "メイリオ", Meiryo, sans-serif;
   color: $font-color;
 }
@@ -57,6 +60,10 @@ h1, h2, h3 {
 
 main {
   width: $content-width;
+
+  img {
+    width: 100%;
+  }
 }
 
 $side-box-side-margin: 20px;
@@ -134,51 +141,39 @@ $post-li-image-margin: 10px;
   overflow-wrap: break-word;
 }
 
-.social {
-  display: flex;
-}
+// 個別ページ
 
-.blog_title {
-  font-size: 32px;
-  margin-bottom: 5px;
-  padding-bottom: 10px;
-  color: #855d51;
-  font-weight: bold;
-  border-bottom: #ba8776 solid 3px;
-}
-
-.blog_date {
+.post-title {
+  font-size: 28px;
   margin-bottom: 20px;
 }
 
-.blog_body {
+.post-date {
+  text-align: right;
+  font-size: 14px;
+  color: $font-color-light;
+  margin-bottom: 20px;
+}
 
+.blog {
   h2 {
     font-size: 24px;
-    color: #855d51;
-    margin: 40px 0 10px;
-    padding-bottom: 6px;
-    font-weight: bold;
-    border-bottom: #ba8776 solid 3px;
-  }
-
-  p {
-    margin-bottom: 20px;
-    line-height: 36px;
-  }
-
-  img {
-    width: 100%;
-    margin-bottom: 20px;
+    border: 1px solid $border-color;
+    border-left: 6px solid $border-thick-color;
+    padding: 5px 10px;
+    margin-top: 40px;
   }
 
   ul {
+    padding-left: 40px;
     list-style: disc;
-    font-weight: bold;
-    padding-left: 20px;
   }
 
   li {
     list-style: disc;
   }
+}
+
+.social {
+  display: flex;
 }
