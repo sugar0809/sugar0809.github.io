@@ -1,11 +1,20 @@
 $site-width: 1236px;
-$content-width: 860px;
+$side-padding: 30px;
+$side-bar-width: 336px;
+$content-width: calc(100% - #{$side-bar-width} - 40px);
+$breakpoint: 1020px;
 $font-color: #333;
 $font-color-light: #666;
 $link-color: #0088a8;
 $side-title-bg-color: #f3f4f5;
 $border-color: #ccc;
 $border-thick-color: #777;
+
+@mixin media-query($device) {
+  @media screen and (max-width: $device) {
+    @content;
+  }
+}
 
 body {
   margin: 0;
@@ -26,9 +35,13 @@ h1, h2, h3 {
   padding: 0;
 }
 
-.header-in {
-  width: $site-width;
+.container {
+  max-width: calc(#{$site-width} + #{$side-padding} * 2);
   margin: 0 auto;
+  padding: 0 $side-padding;
+}
+
+.header-in {
   padding: 20px 0 60px;
   text-align: center;
 }
@@ -54,8 +67,10 @@ h1, h2, h3 {
 
 .content-in {
   display: flex;
-  width: $site-width;
-  margin: 0 auto;
+
+  @include media-query($breakpoint) {
+    display: block;
+  }
 }
 
 main {
@@ -64,13 +79,22 @@ main {
   img {
     max-width: 100%;
   }
+
+  @include media-query($breakpoint) {
+    width: 100%;
+    margin-bottom: 40px;
+  }
 }
 
-$side-box-side-margin: 20px;
+$side-box-side-margin: 10px;
 
 .side-bar {
-  width: calc(100% - #{$content-width} - 40px);
+  width: $side-bar-width;
   margin-left: auto;
+
+  @include media-query($breakpoint) {
+    width: 100%;
+  }
 }
 
 .side-box-title {
@@ -88,8 +112,6 @@ $side-box-side-margin: 20px;
 }
 
 .footer-in {
-  width: $site-width;
-  margin: 0 auto;
   padding: 40px 0 20px;
 }
 
@@ -104,6 +126,10 @@ $side-box-side-margin: 20px;
 .post-li {
   width: $content-width;
   margin-bottom: 20px;
+
+  @include media-query($breakpoint) {
+    width: 100%;
+  }
 }
 
 .post-li-link {
