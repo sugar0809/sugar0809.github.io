@@ -36,6 +36,19 @@ h1, h2, h3 {
   padding: 0;
 }
 
+h2 {
+  font-size: 24px;
+  border: 1px solid $border-color;
+  border-left: 6px solid $border-thick-color;
+  padding: 5px 10px;
+  margin-top: 40px;
+}
+
+h3 {
+  border-bottom: 1px solid $border-color;
+  padding-bottom: 5px;
+}
+
 .container {
   max-width: calc(#{$site-width} + #{$side-padding} * 2);
   margin: 0 auto;
@@ -92,6 +105,7 @@ $side-box-side-margin: 10px;
 .side-bar {
   width: $side-bar-width;
   margin-left: auto;
+  line-height: 24px;
 
   @include media-query($breakpoint) {
     width: 100%;
@@ -105,6 +119,14 @@ $side-box-side-margin: 10px;
 
 .side-box-content {
   padding: 20px $side-box-side-margin 40px;
+}
+
+.side-box-li {
+  margin-bottom: 10px;
+
+  &:hover {
+    background: $side-title-bg-color;
+  }
 }
 
 .side-box-link {
@@ -209,14 +231,6 @@ $post-li-sp-left-width: 38%;
 }
 
 .blog {
-  h2 {
-    font-size: 24px;
-    border: 1px solid $border-color;
-    border-left: 6px solid $border-thick-color;
-    padding: 5px 10px;
-    margin-top: 40px;
-  }
-
   ul {
     padding-left: 40px;
     list-style: disc;
@@ -224,11 +238,6 @@ $post-li-sp-left-width: 38%;
 
   li {
     list-style: disc;
-  }
-
-  h3 {
-    border-bottom: 1px solid $border-color;
-    padding-bottom: 5px;
   }
 }
 

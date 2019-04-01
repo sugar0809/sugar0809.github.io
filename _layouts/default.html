@@ -89,7 +89,7 @@
           <div class="side-box-content">
             <ul class="side-box-ul">
               {% for post in site.posts limit:5 %}
-              <li>
+              <li class="side-box-li">
                 <a class="side-box-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
               </li>
               {% endfor %}
