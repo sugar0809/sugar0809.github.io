@@ -6,6 +6,7 @@ $breakpoint: 1020px;
 $breakpoint-sp: 600px;
 $font-color: #333;
 $font-color-light: #666;
+$gray-color: #999;
 $link-color: #0088a8;
 $side-title-bg-color: #f3f4f5;
 $border-color: #ccc;
@@ -208,11 +209,21 @@ $post-li-sp-left-width: 38%;
 
 .post-li-title {
   font-size: 24px;
+  line-height: 28px;
   font-weight: bold;
+}
+
+.post-li-date {
+  text-align: right;
+  font-size: 14px;
+  line-height: 18px;
+  margin-bottom: 5px;
+  color: $gray-color;
 }
 
 .post-li-summary {
   font-size: 16px;
+  line-height: 20px;
   overflow-wrap: break-word;
 }
 
