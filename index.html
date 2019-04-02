@@ -10,10 +10,10 @@ layout: default
       </div>
       <div class="post-li-right">
         <div class="post-li-title">{{ post.title }}</div>
-        <div class="post-li-date">{{ post.date | date: "%Y-%m-%d" }}</div>
         <div class="post-li-summary">
           {{ post.content | strip_html | strip_newlines | truncate: 120 }}
         </div>
+        <div class="post-li-date">{{ post.date | date: "%Y-%m-%d" }}</div>
       </div>
     </a>
   </li>

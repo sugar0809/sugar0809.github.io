@@ -1,6 +1,6 @@
-$site-width: 1236px;
-$side-padding: 30px;
-$side-bar-width: 336px;
+$site-width: 1100px;
+$side-padding: 40px;
+$side-bar-width: 350px;
 $content-width: calc(100% - #{$side-bar-width} - 40px);
 $breakpoint: 1020px;
 $breakpoint-sp: 600px;
@@ -208,22 +208,23 @@ $post-li-sp-left-width: 38%;
 }
 
 .post-li-title {
-  font-size: 24px;
-  line-height: 28px;
+  font-size: 18px;
+  line-height: 22px;
   font-weight: bold;
+  margin-bottom: 5px;
 }
 
 .post-li-date {
   text-align: right;
-  font-size: 14px;
+  font-size: 13px;
   line-height: 18px;
-  margin-bottom: 5px;
+  margin-top: 20px;
   color: $gray-color;
 }
 
 .post-li-summary {
-  font-size: 16px;
-  line-height: 20px;
+  font-size: 14px;
+  line-height: 18px;
   overflow-wrap: break-word;
 }
 
