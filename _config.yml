@@ -36,3 +36,6 @@ exclude:
 
 sass:
   sass_dir: _sass
+
+gems:
+  - jekyll-sitemap
