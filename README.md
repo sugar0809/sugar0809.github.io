@@ -61,7 +61,7 @@ or
 ### 外部リンクサンプル
 
 ```
-<a href="https://boniq.jp/recipe/%E7%A9%B6%E6%A5%B5%EF%BC%81%E5%8F%B2%E4%B8%8A%E6%9C%80%E5%BC%B7%E3%81%AB%E6%9F%94%E3%82%89%E3%81%8B%E3%81%84%E8%92%B8%E3%81%97%E9%B6%8F/" target="_blank">【究極！】史上最強に柔らかい蒸し鶏</a>
+<a href="https://boniq.jp/recipe/" target="_blank">【究極！】史上最強に柔らかい蒸し鶏</a>
 ```
 
 ### 7. 公開
