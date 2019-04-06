@@ -14,7 +14,7 @@ $ bundle exec jekyll serve
 
 ### 3. サーバーが立ち上がってることを確認
 
-ブラウザで `localhost:4000` にアクセス
+ブラウザで [localhost:4000](localhost:4000) にアクセス
 
 ### 4. 新しいファイルを作成
 
@@ -74,4 +74,4 @@ $ git push
 
 ### 8. 本番確認
 
-しばらくしたら公開されるので、 `ayakasato.com` を確認
+しばらくしたら公開されるので、 [https://ayakasato.com](https://ayakasato.com) を確認
