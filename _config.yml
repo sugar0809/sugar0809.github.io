@@ -35,6 +35,7 @@ exclude:
   - Gemfile
   - Gemfile.lock
   - "*.code-workspace"
+  - README.md
 
 sass:
   sass_dir: _sass
