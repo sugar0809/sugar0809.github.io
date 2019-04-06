@@ -2,7 +2,6 @@
 layout: post
 title:  ブログ開設しました◎
 date:   2019-03-23 02:09:28 +0900
-permalink: /blog/2019/03/23/hello-world/
 image: /assets/images/2017-01-28-22.05.38_2.jpg
 category: 未分類
 ---
