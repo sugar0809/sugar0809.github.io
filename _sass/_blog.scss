@@ -10,7 +10,7 @@ $gray-color: #999;
 $link-color: #0088a8;
 $side-title-bg-color: #f3f4f5;
 $border-color: #ccc;
-$border-thick-color: #777;
+$border-thick-color: #0088a8;
 
 @mixin media-query($device) {
   @media screen and (max-width: $device) {
@@ -40,8 +40,7 @@ h1, h2, h3 {
 
 h2 {
   font-size: 24px;
-  border: 1px solid $border-color;
-  border-left: 6px solid $border-thick-color;
+  border-left: 8px solid $border-thick-color;
   padding: 5px 10px;
   margin-top: 40px;
 }
@@ -123,20 +122,20 @@ $side-box-side-margin: 10px;
 }
 
 .side-box-content {
-  padding: 20px $side-box-side-margin 40px;
+  padding: 10px 0 40px;
 }
 
 .side-box-li {
-  margin-bottom: 10px;
-
   &:hover {
     background: $side-title-bg-color;
   }
 }
 
 .side-box-link {
+  display: block;
   color: $font-color;
   text-decoration: none;
+  padding: 4px 6px;
 }
 
 .footer-in {
@@ -151,8 +150,9 @@ $side-box-side-margin: 10px;
   list-style: none;
 }
 
-.post-li {
+.blog .post-li {
   margin-bottom: 20px;
+  list-style: none;
 
   @include media-query($breakpoint) {
     width: 100%;
@@ -263,4 +263,24 @@ $post-li-sp-left-width: 38%;
 
 .social_button {
   margin-right: 5px;
+}
+
+#kasou_contents {
+  width: 700px;
+  margin: 0 auto;
+}
+
+.profile-image {
+  float: left;
+  margin-right: 10px;
+}
+
+.profile-content {
+  font-size: 13px;
+  line-height: normal;
+}
+
+.profile-link {
+  color: skyblue;
+  text-decoration: none;
 }
