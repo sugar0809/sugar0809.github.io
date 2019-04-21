@@ -2,11 +2,11 @@
 layout: post
 title:  キッチンドランカーの会でフムスと低温調理ラムを作った
 date:   2019-04-14 02:09:28 +0900
-image: /assets/images/kichidra14.png
+image: /assets/images/kichidra14.jpg
 category: 料理
 ---
 
-<img src="/assets/images/kichidra1.png" width="600" />
+<img src="/assets/images/kichidra1.jpg" width="600" />
 
 知人が主催している、飲みながら料理を作ってワイワイする会「キチドラ」に参加してきました◎
 
@@ -16,12 +16,12 @@ category: 料理
 ## 会場と設備
 場所はこちら、新宿御苑前にある[ガーデンキッチン御苑イースト](http://www.gardenkitchen.jp/east/index.html)というレンタルキッチンを利用しました。
 
-<img src="/assets/images/kichidra2.png" width="600">
+<img src="/assets/images/kichidra2.jpg" width="600">
 
 設備としては、３つ口コンロ×２つ、業務用食洗機、シンク×２箇所、<br>
 その他食器やフードプロセッサーなど、設備としては十分でした。
 
-<img src="/assets/images/kichidra3.png" width="600">
+<img src="/assets/images/kichidra3.jpg" width="600">
 
 調味料などはないので、自分たちで買ったり持ち寄ったりしました。
 
@@ -29,7 +29,7 @@ category: 料理
 ## 買い出し
 朝１０時、まずは買い出し。最寄りのイトーヨカドーにて大量購入。<br>
 
-<img src="/assets/images/kichidra4.png" width="534">
+<img src="/assets/images/kichidra4.jpg" width="534">
 
 これに加えてカゴいっぱいのお酒。３人で買い出しに行ったら重すぎたｗ
 
@@ -39,42 +39,42 @@ category: 料理
 そして下ごしらえ開始。<br>
 こちらは水炊き。
 
-<img src="/assets/images/kichidra5.png" width="600">
+<img src="/assets/images/kichidra5.jpg" width="600">
 
 こちらは、パン屋さんを経営している方がパンを作ってくれているところ。
 
-<img src="/assets/images/kichidra6.png" width="600">
+<img src="/assets/images/kichidra6.jpg" width="600">
 
 焼き立てのパンはもっちもちでめちゃくちゃおいしかった〜😆<br>
 子供にも大人気！
 
-<img src="/assets/images/kichidra7.png" width="600">
+<img src="/assets/images/kichidra7.jpg" width="600">
 
 人が集まってきてだんだんとキッチンが混み合ってきました。
 
-<img src="/assets/images/kichidra8.png" width="600">
+<img src="/assets/images/kichidra8.jpg" width="600">
 
 主催者が前日から仕込んできた昆布締め。料亭で出てくる味がしました。<br>
 こんなの家庭で作れるんだ〜！と驚き。
 
-<img src="/assets/images/kichidra9.png" width="600"><br>
+<img src="/assets/images/kichidra9.jpg" width="600"><br>
 
 餃子にネギのアヒージョ。どれもお酒が進むものばかり😂
 
-<img src="/assets/images/kichidra11.png" width="600"><br>
+<img src="/assets/images/kichidra11.jpg" width="600"><br>
 
 こちらはプロの料理家さんによるカブとフルーツのサラダ。<br>
 この大胆な食材の組み合わせ、さすがプロ。めちゃくちゃ合う。
 
-<img src="/assets/images/kichidra12.png" width="600">
+<img src="/assets/images/kichidra12.jpg" width="600">
 
 子供連れの方などたくさん人が集まってきました👦👧
 
-<img src="/assets/images/kichidra13.png" width="600">
+<img src="/assets/images/kichidra13.jpg" width="600">
 
 そして気がついたら料理がすごい量に😲
 
-<img src="/assets/images/kichidra14.png" width="600">
+<img src="/assets/images/kichidra14.jpg" width="600">
 
 
 ## 私が作った料理
@@ -104,21 +104,21 @@ category: 料理
 
 まずはラム。<br>
 
-<img src="/assets/images/kichidra16.png" width="600">
+<img src="/assets/images/kichidra16.jpg" width="600">
 
 大人数でも食べやすいように、骨付きのものではなくステーキにしました。<br>
 薄いステーキだったので<b>55度30分くらいで、最後に表面だけさっと焼きました</b>。
 
 続いて鮭。<br>
 
-<img src="/assets/images/kichidra17.png" width="600">
+<img src="/assets/images/kichidra17.jpg" width="600">
 
 こちらは塩鮭だったのですが、もともと振ってあった塩が多かったみたいで塩辛くなってしまいました😅<br>
 <b>45度30分くらい。焼かずにそのまま。</b>
 
 最後は、主催者の方が買ってきてくれた[ルミノ牧場](https://www.rumino.jp/)の高級黒毛ジャージー。
 
-<img src="/assets/images/kichidra18.png" width="600">
+<img src="/assets/images/kichidra18.jpg" width="600">
 
 お肉自体も味が濃くてジューシーでめちゃくちゃおいしかった〜😍<br>
 ピンクペッパーがまた合う。ピンクペッパー持ってきた主催者天才か。<br>

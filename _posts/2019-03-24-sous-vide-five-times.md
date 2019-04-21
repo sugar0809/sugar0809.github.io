@@ -5,6 +5,8 @@ date:   2019-03-24 02:09:28 +0900
 image: /assets/images/00100lPORTRAIT_00100_BURST20190316173137725_COVER-1.jpg
 category: 料理
 ---
+<img src="/assets/images/00100lPORTRAIT_00100_BURST20190316173137725_COVER-1.jpg" width="600" />
+
 今日は、最近ハマっている低温調理の話をしたいと思います。
 
 ## 低温調理とは
