@@ -69,7 +69,7 @@ or
 ```
 $ git add .
 $ gs （ステータス見たいとき）
-$ git commit -m "Add new post"
+$ git commit -m "Add new post"　あるいは gcm "message"
 $ git push　あるいは gp
 ```
 
