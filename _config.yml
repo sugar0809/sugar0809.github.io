@@ -19,6 +19,7 @@ description: 3Dプリンター、料理、家具作りなどものづくりの�
 baseurl: ""
 url: "https://ayakasato.com" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: jekyllrb
+og_image: /assets/images/blogtitle.png
 permalink: /:year/:month/:day/:title
 
 # Build settings
