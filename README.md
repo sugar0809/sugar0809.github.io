@@ -68,8 +68,9 @@ or
 
 ```
 $ git add .
+$ gs （ステータス見たいとき）
 $ git commit -m "Add new post"
-$ git push
+$ git push　あるいは gp
 ```
 
 ### 8. 本番確認
