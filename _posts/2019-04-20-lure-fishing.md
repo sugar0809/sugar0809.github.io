@@ -81,7 +81,13 @@ category: 釣り
 
 <img src="/assets/images/fishing9.jpg" width="600" />
 
-1本百円で売っている串に刺します。
+こちらのFISHSOAPを使うと手について魚臭が簡単に取れておすすめ。
+
+<img src="/assets/images/fishing14.jpg" width="600" />
+
+1本100円で売っている串に刺します。  
+ポイントは背骨の裏側にちゃんと指すこと。  
+そうしないと焼く時に魚がくるくるひっくり返ってちゃんと焼けません。
 
 <img src="/assets/images/fishing10.jpg" width="600" />
 
