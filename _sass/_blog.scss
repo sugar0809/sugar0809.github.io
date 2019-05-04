@@ -266,14 +266,18 @@ $post-li-sp-left-width: 38%;
   margin-right: 5px;
 }
 
-#kasou_contents {
+.page {
   width: 700px;
   margin: 0 auto;
 }
 
+.profile-top {
+  display: flex;
+  flex-wrap: wrap;
+}
+
 .profile-image {
-  float: left;
-  margin-right: 10px;
+  margin-right: 20px;
 }
 
 .profile-content {
@@ -284,4 +288,8 @@ $post-li-sp-left-width: 38%;
 .profile-link {
   color: skyblue;
   text-decoration: none;
+}
+
+.projects-image {
+  width: 250px;
 }
