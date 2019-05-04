@@ -50,6 +50,10 @@ h3 {
   padding-bottom: 5px;
 }
 
+a {
+  color: $link-color;
+}
+
 .container {
   max-width: calc(#{$site-width} + #{$side-padding} * 2);
   margin: 0 auto;
