@@ -295,6 +295,17 @@ $post-li-sp-left-width: 38%;
   text-decoration: none;
 }
 
+.projects-item {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 20px 20px 0 20px;
+}
+
 .projects-image {
   width: 250px;
+  margin-right: 20px;
+}
+
+.projects-text {
+  max-width: 390px;
 }
