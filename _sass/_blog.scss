@@ -269,6 +269,10 @@ $post-li-sp-left-width: 38%;
 .page {
   width: 700px;
   margin: 0 auto;
+
+  @include media-query(700px) {
+    width: 100%;
+  }
 }
 
 .profile-top {
@@ -283,6 +287,7 @@ $post-li-sp-left-width: 38%;
 .profile-content {
   font-size: 13px;
   line-height: normal;
+  display: flex;
 }
 
 .profile-link {
