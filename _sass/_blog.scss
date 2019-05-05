@@ -1,9 +1,12 @@
-$site-width: 1050px;
-$side-padding: 40px;
-$side-bar-width: 350px;
-$content-width: calc(100% - #{$side-bar-width} - 40px);
 $breakpoint: 1020px;
 $breakpoint-sp: 600px;
+$site-width: 1050px;
+$side-padding: 40px;
+@include media-query($breakpoint-sp) {
+  $side-padding: 10px;
+}
+$side-bar-width: 350px;
+$content-width: calc(100% - #{$side-bar-width} - 40px);
 $font-color: #333;
 $font-color-light: #666;
 $gray-color: #999;
@@ -52,6 +55,7 @@ h3 {
 
 a {
   color: $link-color;
+  font-weight: bold;
 }
 
 .container {
@@ -168,6 +172,7 @@ $side-box-side-margin: 10px;
   display: flex;
   color: $font-color;
   text-decoration: none;
+  font-weight: normal;
 
   &:hover {
     background: $side-title-bg-color;
