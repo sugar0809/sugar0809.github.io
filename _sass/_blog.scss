@@ -1,3 +1,9 @@
+@mixin media-query($device) {
+  @media screen and (max-width: $device) {
+    @content;
+  }
+}
+
 $breakpoint: 1020px;
 $breakpoint-sp: 600px;
 $site-width: 1050px;
@@ -14,12 +20,6 @@ $link-color: #0088a8;
 $side-title-bg-color: #f3f4f5;
 $border-color: #ccc;
 $border-thick-color: #0088a8;
-
-@mixin media-query($device) {
-  @media screen and (max-width: $device) {
-    @content;
-  }
-}
 
 body {
   border-top: 6px solid #0088a8;
