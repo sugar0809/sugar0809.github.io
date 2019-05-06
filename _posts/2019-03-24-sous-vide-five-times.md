@@ -3,7 +3,7 @@ layout: post
 title:  １日で低温調理を５回やってみた
 date:   2019-03-24 02:09:28 +0900
 image: /assets/images/00100lPORTRAIT_00100_BURST20190316173137725_COVER-1.jpg
-category: 料理
+category: cooking
 ---
 <img src="/assets/images/00100lPORTRAIT_00100_BURST20190316173137725_COVER-1.jpg" width="600" />
 

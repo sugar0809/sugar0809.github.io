@@ -3,7 +3,7 @@ layout: post
 title:  有孔ボード（ペグボード）で見せる収納をDIY
 date:   2019-03-31 02:09:28 +0900
 image: /assets/images/peg_board_top.jpg
-category: 家具
+category: furniture
 ---
 
 <img src="/assets/images/peg_board_top.jpg" width="534" />

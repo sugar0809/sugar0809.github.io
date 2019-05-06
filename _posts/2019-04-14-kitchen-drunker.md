@@ -3,7 +3,7 @@ layout: post
 title:  キッチンドランカーの会でフムスと低温調理ラムを作った
 date:   2019-04-14 02:09:28 +0900
 image: /assets/images/kichidra14.jpg
-category: 料理
+category: cooking
 ---
 
 <img src="/assets/images/kichidra1.jpg" width="600" />

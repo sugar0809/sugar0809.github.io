@@ -3,7 +3,7 @@ layout: post
 title:  秋葉原のパーツショップめぐりツアー
 date:   2019-04-29
 image: /assets/images/akiba1.jpg
-category: 電子工作
+category: electronics
 ---
 
 <img src="/assets/images/akiba1.jpg" width="600" />
