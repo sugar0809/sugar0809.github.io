@@ -8,9 +8,11 @@ $breakpoint: 1020px;
 $breakpoint-sp: 600px;
 $site-width: 1050px;
 $side-padding: 40px;
+
 @include media-query($breakpoint-sp) {
   $side-padding: 10px;
 }
+
 $side-bar-width: 350px;
 $content-width: calc(100% - #{$side-bar-width} - 40px);
 $font-color: #333;
