@@ -76,3 +76,35 @@ $ git push　あるいは gp
 ### 8. 本番確認
 
 しばらくしたら公開されるので、 [https://ayakasato.com](https://ayakasato.com) を確認
+
+# 新しくカテゴリーを追加
+
+### 1. `_config.yml` を編集
+
+`category_mapping` に、 `english: 日本語` のようにカテゴリを追加
+
+例
+```
+category_mapping:
+  cooking: 料理
+  3dprinter: 3Dプリンター
+  furniture: 家具
+  fishing: 釣り
+  electronics: 電子工作
+```
+
+### 2. categoryフォルダにファイルを追加
+
+例: cookingカテゴリを新しく作る時
+`category/cooking/index.html`
+
+### 3. 新しく作ったファイルに下記を貼り付け
+
+```
+---
+layout: category_index
+title: cooking
+---
+```
+
+※titleを新しく作るカテゴリの英語名にする
