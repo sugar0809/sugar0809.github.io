@@ -8,10 +8,7 @@ $breakpoint: 1020px;
 $breakpoint-sp: 600px;
 $site-width: 1050px;
 $side-padding: 40px;
-
-@include media-query($breakpoint-sp) {
-  $side-padding: 10px;
-}
+$side-padding-sp: 10px;
 
 $side-bar-width: 350px;
 $content-width: calc(100% - #{$side-bar-width} - 40px);
@@ -64,6 +61,10 @@ a {
   max-width: calc(#{$site-width} + #{$side-padding} * 2);
   margin: 0 auto;
   padding: 0 $side-padding;
+
+  @include media-query($breakpoint-sp) {
+    padding: 0 $side-padding-sp;
+  }
 }
 
 .header-in {
