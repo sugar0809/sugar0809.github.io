@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  家の空間を有効活用できるソファダイニング用テーブルをプチDIY
+title:  リビングの空間を有効活用できるソファダイニング用テーブルをプチDIY
 date:   2019-05-12
 image: /assets/images/dining10.jpg
 category: furniture
