@@ -3,7 +3,7 @@
 ### 1. ローカルを最新化
 
 ```
-$ git pull
+$ git pull あるいは gpl
 ```
 
 ### 2. ローカルにサーバーを立てる
@@ -67,7 +67,7 @@ or
 ### 7. 公開
 
 ```
-$ git add .
+$ git add . あるいは ga .
 $ gs （ステータス見たいとき）
 $ git commit -m "Add new post"　あるいは gcm "message"
 $ git push　あるいは gp
