@@ -3,7 +3,7 @@ layout: post
 title:  無駄買いと食品ロスを減らすために倉庫を整理した
 date:   2019-12-30
 image: /assets/images/cleaning1.jpg
-category: cleaning
+category: housekeeping
 ---
 
 年末ということで、大掃除ネタをあげます。

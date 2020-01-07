@@ -3,7 +3,7 @@ layout: post
 title:  としまえんで初めてのルアー釣り
 date:   2019-04-28
 image: /assets/images/fishing1_s.jpg
-category: fishing
+category: outdoor
 ---
 
 <img src="/assets/images/fishing1.jpg" width="600" />
