@@ -108,3 +108,17 @@ title: cooking
 ```
 
 ※titleを新しく作るカテゴリの英語名にする
+
+# Tips
+
+## ターミナルで下記のエラーが出たら・・・
+
+```
+_git_stat_update:2: no such file or directory: /tmp/zsh/zsh_prompt_hook.25456
+```
+
+`s` というコマンドを叩いてターミナルの設定を読み直すと直る
+
+## _config.ymlを編集したら
+
+`bundle exec jekyll serve` を `ctrl-c` で一回止めて再起動
