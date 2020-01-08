@@ -21,11 +21,9 @@ category: cooking
 
 私はANOVAという低温調理器を持っています。
 
-ANOVAにはBluetoothモデルとWi-Fiモデルがあり、私はこちらのBluetoothモデルを使用しております。
+ANOVAにはBluetoothモデルとWi-Fiモデルがあり、私はBluetoothモデルを使用しております。
 
-{::nomarkdown}
-<iframe style="width:120px;height:240px;" marginwidth="0" marginheight="0" scrolling="no" frameborder="0" src="//rcm-fe.amazon-adsystem.com/e/cm?lt1=_blank&amp;bc1=FFFFFF&amp;IS2=1&amp;bg1=FFFFFF&amp;fc1=000000&amp;lc1=0000FF&amp;t=sugarayaka-22&amp;language=ja_JP&amp;o=9&amp;p=8&amp;l=as4&amp;m=amazon&amp;f=ifr&amp;ref=as_ss_li_til&amp;asins=B00UKPBXM4&amp;linkId=44073f3790b841b98b36c1a55fae9635"></iframe>
-{:/nomarkdown}
+(2020/01/08現在、Amazonでは在庫切れの模様。)
 
 値段もこちらのモデルのほうがお安く、機能的にも十分だと思います。
 ちなみに、Nanoという小さめのモデル（といってもそんなに小さくないです）もありますが、設置する位置の調整ができず、
