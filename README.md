@@ -50,6 +50,13 @@ or
 <img src="/assets/images/IMG_20190313_193532.jpg" width="400" />
 ```
 
+#### 動画サンプル
+
+```
+<video width="400" controls>
+  <source src="/assets/images/roomba.mp4" type="video/mp4">
+</video>
+```
 #### Amazonリンクサンプル
 
 ```
