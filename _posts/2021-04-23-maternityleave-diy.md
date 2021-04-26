@@ -130,7 +130,7 @@ A4サイズくらいまでならカットも彫刻もできます。<br>
 スロープトイとは、スロープにコマを転がす知育玩具です。
 
 <video width="400" controls>
-  <source src="/assets/images/slopetoy.mp4" type="video/mp4">
+  <source src="/assets/images/slope_toy.mp4" type="video/mp4">
 </video>
 
 今はまだ見つめるだけですが、<b>立てるようになったら自分で転がせることを期待しています。</b>
