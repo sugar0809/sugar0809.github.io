@@ -56,12 +56,8 @@ MDFをカットしてアクリル絵の具で塗装。
 <img src="/assets/images/crown.jpg" width="300" /><br>
 フェルトをカットして縫ってひっくり返した。
 
-#### 王冠
-<img src="/assets/images/crown.jpg" width="300" /><br>
-フェルトをカットして縫ってひっくり返した。
-
 #### 命名板
-<img src="/assets/images/meimei.jpg" width="300" />
+<img src="/assets/images/meimei.jpg" width="300" /><br>
 まな板をカットして加工。
 
 ## 使用感
