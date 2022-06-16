@@ -3,7 +3,7 @@ layout: post
 title:  我が家の3Dプリンターの紹介
 date:   2019-03-31 02:09:28 +0900
 image: /assets/images/写真-2017-02-17-0-45-01-768x768.jpg
-category: 3dprinter, diy
+category: 3dprinter, DIY
 ---
 
 我が家は、ものづくり好きが高じて３Dプリンターを所有しております。
