@@ -3,7 +3,7 @@ layout: post
 title:  写真育児日記のすすめ
 date:   2022-06-17
 image: /assets/images/xxx.jpg
-category: xxx
+category: child
 ---
 
 [LINK](https://xxx)
