@@ -2,26 +2,25 @@
 layout: post
 title:  写真育児日記のすすめ
 date:   2022-06-17
-image: /assets/images/xxx.jpg
+lastmod: 
+image: /assets/images/photodiary3.png
 category: child
 ---
-
-[LINK](https://xxx)
 
 こんにちは、しゅがーです！
 
 もうすぐ2歳になるの男の子を持つワーキングマザーです。
 
 皆さん、育児日記はつけてますか？<br>
-私は性格がズボラなのでつけていません。<br>
+私はつけていません。<br>
 ...というか続きませんでした。
 
 その代わり、写真コラージュアプリを使って、写真育児日記というものを作っています。
 
 こんな感じです↓
 
-「ボカシ入れた写真」
-<img src="/assets/images/xxx.jpg" width="600" />
+<img src="/assets/images/photodiary1.png" width="400" />
+<img src="/assets/images/photodiary2.png" width="400" />
 
 めんどくさそうですか？<br>
 育児日記が3日も続かなかった私が、もう2年近く続けられているので、やり方次第なのではないかな、と思います。
