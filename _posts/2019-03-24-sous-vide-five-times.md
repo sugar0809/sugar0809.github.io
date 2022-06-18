@@ -2,6 +2,7 @@
 layout: post
 title:  １日で低温調理を５回やってみた
 date:   2019-03-24 02:09:28 +0900
+lastmod: 2022-06-18
 image: /assets/images/00100lPORTRAIT_00100_BURST20190316173137725_COVER-1.jpg
 category: cooking
 ---
@@ -21,20 +22,15 @@ category: cooking
 
 私はANOVAという低温調理器を持っています。
 
-ANOVAにはBluetoothモデルとWi-Fiモデルがあり、私はBluetoothモデルを使用しております。
+<table border="0" cellpadding="0" cellspacing="0"><tr><td><div style="border:1px solid #95a5a6;border-radius:.75rem;background-color:#FFFFFF;width:280px;margin:0px;padding:5px;text-align:center;overflow:hidden;"><table><tr><td style="width:128px"><a href="https://hb.afl.rakuten.co.jp/ichiba/28cefc34.a87ada8b.28cefc35.2bddf370/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Finterprime%2F10000108%2F&link_type=picttext&ut=eyJwYWdlIjoiaXRlbSIsInR5cGUiOiJwaWN0dGV4dCIsInNpemUiOiIxMjh4MTI4IiwibmFtIjoxLCJuYW1wIjoicmlnaHQiLCJjb20iOjEsImNvbXAiOiJkb3duIiwicHJpY2UiOjEsImJvciI6MSwiY29sIjoxLCJiYnRuIjoxLCJwcm9kIjowLCJhbXAiOmZhbHNlfQ%3D%3D" target="_blank" rel="nofollow sponsored noopener" style="word-wrap:break-word;"  ><img src="https://hbb.afl.rakuten.co.jp/hgb/28cefc34.a87ada8b.28cefc35.2bddf370/?me_id=1318188&item_id=10000108&pc=https%3A%2F%2Fthumbnail.image.rakuten.co.jp%2F%400_mall%2Finterprime%2Fcabinet%2F06359082%2Fimgrc0086519316.jpg%3F_ex%3D128x128&s=128x128&t=picttext" border="0" style="margin:2px" alt="[商品価格に関しましては、リンクが作成された時点と現時点で情報が変更されている場合がございます。]" title="[商品価格に関しましては、リンクが作成された時点と現時点で情報が変更されている場合がございます。]"></a></td><td style="vertical-align:top;width:136px;"><p style="font-size:12px;line-height:1.4em;text-align:left;margin:0px;padding:2px 6px;word-wrap:break-word"><a href="https://hb.afl.rakuten.co.jp/ichiba/28cefc34.a87ada8b.28cefc35.2bddf370/?pc=https%3A%2F%2Fitem.rakuten.co.jp%2Finterprime%2F10000108%2F&link_type=picttext&ut=eyJwYWdlIjoiaXRlbSIsInR5cGUiOiJwaWN0dGV4dCIsInNpemUiOiIxMjh4MTI4IiwibmFtIjoxLCJuYW1wIjoicmlnaHQiLCJjb20iOjEsImNvbXAiOiJkb3duIiwicHJpY2UiOjEsImJvciI6MSwiY29sIjoxLCJiYnRuIjoxLCJwcm9kIjowLCJhbXAiOmZhbHNlfQ%3D%3D" target="_blank" rel="nofollow sponsored noopener" style="word-wrap:break-word;"  >【1年保証】低温調理器　New Anova Culinary アノーバ　真空調理器【WiFi】1000W スマホと連動して水の温度をコントロール 簡易日本語説明書付</a><br><span >価格：33600円（税込、送料別)</span> <span style="color:#BBB">(2022/6/18時点)</span></p></td></tr></table></div><br><p style="color:#000000;font-size:12px;line-height:1.4em;margin:5px;word-wrap:break-word"></p></td></tr></table>
 
-(2020/01/08現在、Amazonでは在庫切れの模様。)
-
-値段もこちらのモデルのほうがお安く、機能的にも十分だと思います。
-ちなみに、Nanoという小さめのモデル（といってもそんなに小さくないです）もありますが、設置する位置の調整ができず、
-容器の自由度が下がるので個人的にはこのモデルが一番使いやすくておすすめです。
+Nanoという小さめのモデル（といってもそんなに小さくないです）もありますが、設置する位置の調整ができず、
+容器の自由度が下がるので個人的にはこのモデルが使いやすくておすすめです。
 
 容器は低温調理器が設置できてかつ入れたいお肉が入ればなんでも大丈夫です。
-私はあまり出番のないシャンパンクーラーを使ってます。
+私はあまり出番のないシャンパンクーラーや、100円ショップで買った米びつを使ってます。
 
 <img src="/assets/images/IMG_20190313_193532.jpg" width="400" />
-
-（2020/01/08追記：最近では、百均で200円ほどで売っているプラスチックの容器を使っています。大きめのお肉も入って便利です。）
 
 ちなみに、コンセントの関係上いつもゴミ箱の上に乗せてやっています・・・笑
 
@@ -43,8 +39,8 @@ ANOVA以外にもいくつか低温調理器が出ていますが、
 
 その中でも、温度設定が機器本体からもできるものがオススメです。
 
-最近は、本体にディスプレイやボタンのないモデルもあり、見た目はとてもスタイリッシュなのですが、
-慣れてくるとアプリを使わなくても設定できるようになってきます。
+最近は、本体にディスプレイやボタンのないモデルもあります。<br>
+見た目はとてもスタイリッシュなのですが、慣れてくるとアプリを使わなくても設定できるようになってきます。<br>
 そのときにアプリ開かなくても使えるほうが個人的には便利だと思います。
 
 ## 低温調理の難点と今回のチャレンジ
