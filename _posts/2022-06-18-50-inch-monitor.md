@@ -4,7 +4,7 @@ title:  50インチテレビのモニター活用術
 date:   2022-06-18
 lastmod: 
 image: /assets/images/monitor1.png
-category: others
+category: lifehack
 ---
 
 こんにちは、しゅがーです！
