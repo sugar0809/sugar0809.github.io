@@ -44,7 +44,6 @@ sass:
 category_mapping:
   cooking: 料理
   3dprinter: 3Dプリンター
-  furniture: 家具
   outdoor: アウトドア
   electronics: 電子工作
   housekeeping: 家事
@@ -52,4 +51,17 @@ category_mapping:
   child: 子育て
   subscription: サブスク
   lifehack: ライフハック
+  others: その他
+
+tags_mapping:
+  cooking: 料理
+  3dprinter: 3Dプリンター
+  outdoor: アウトドア
+  electronics: 電子工作
+  housekeeping: 家事
+  diy: DIY
+  child: 子育て
+  subscription: サブスク
+  lifehack: ライフハック
+  furniture: 家具
   others: その他

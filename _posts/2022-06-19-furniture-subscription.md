@@ -5,6 +5,7 @@ date:   2022-06-19
 lastmod:    
 image: /assets/images/furniture2.png
 category: subscription
+tags: subscription furniture
 ---
 
 こんにちは、しゅがーです！

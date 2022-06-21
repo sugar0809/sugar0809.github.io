@@ -5,6 +5,7 @@ date:   2022-06-17
 lastmod: 
 image: /assets/images/photodiary3.png
 category: child
+tags: child
 ---
 
 こんにちは、しゅがーです！

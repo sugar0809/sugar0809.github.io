@@ -6,6 +6,8 @@ layout: default
     <h1 class="post-title">
       {% if site.category_mapping[page.title] %}
         {{ site.category_mapping[page.title] }}
+      {% elsif site.tags_mapping[page.title] %}
+        {{ site.tags_mapping[page.title] }}
       {% else %}
         {{ page.title }}
       {% endif %}
@@ -69,6 +71,20 @@ layout: default
         {% for category in site.categories %}
         <li class="side-box-li">
           <a class="side-box-link" href="/category/{{ category | first | url_encode }}">{{ site.category_mapping[category.first] }}（{{ category[1].size }}）</a>
+        </li>
+        {% endfor %}
+      </ul>
+    </div>
+  </aside>
+  <aside class="side-box">
+    <h3 class="side-box-title">タグ</h3>
+    <div class="side-box-content">
+      <ul class="side-box-ul">
+        {% for tag in site.tags %}
+        <li class="side-box-li">
+          <a class="side-box-link" href="/tags/{{ tag | first | url_encode }}">
+            {{ site.tags_mapping[tag.first] }}（{{ tag[1].size }}）
+          </a>
         </li>
         {% endfor %}
       </ul>

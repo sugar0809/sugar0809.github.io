@@ -5,6 +5,7 @@ date:   2022-06-18
 lastmod: 
 image: /assets/images/monitor1.png
 category: lifehack
+tags: lifehack
 ---
 
 こんにちは、しゅがーです！

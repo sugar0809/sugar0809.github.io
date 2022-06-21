@@ -1,0 +1,23 @@
+---
+layout: post
+---
+<ul class="post-ul">
+  {% for post in site.posts %}
+  {% if post.tags contains page.title %}
+  <li class="post-li">
+    <a class="post-li-link" href="{{ post.url }}">
+      <div class="post-li-left">
+        <img class="post-li-image" src="{% if post.image %}{{ post.image }}{% else %}{{ site.og_image }}{% endif %}" alt="{{ post.title }}" width="320" height="180">
+      </div>
+      <div class="post-li-right">
+        <div class="post-li-title">{{ post.title }}</div>
+        <div class="post-li-summary">
+          {{ post.content | strip_html | strip_newlines | truncate: 120 }}
+        </div>
+        <div class="post-li-date">{{ post.date | date: "%Y-%m-%d" }}</div>
+      </div>
+    </a>
+  </li>
+  {% endif %}
+  {% endfor %}
+</ul>

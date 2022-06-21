@@ -4,6 +4,7 @@ title:  我が家にレーザーカッターが仲間入り！使用感や作っ
 date:   2021-05-03
 image: /assets/images/lasercutter.jpg
 category: diy
+tags: diy
 ---
 <a href="/2021/04/23/maternityleave-diy">１つ前の記事</a>で少し触れましたが、<b>我が家にレーザーカッターを導入しました！</b>
 

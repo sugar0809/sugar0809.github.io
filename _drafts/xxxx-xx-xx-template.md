@@ -2,9 +2,10 @@
 layout: post
 title:  xxx
 date:   xxxx-xx-xx
-lastmod:    xxxx-xx-xx
+lastmod:    
 image: /assets/images/xxx.jpg
 category: xxx
+tags: xxx xxx
 ---
 
 xxx
