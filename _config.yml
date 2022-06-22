@@ -51,6 +51,7 @@ category_mapping:
   child: 子育て
   subscription: サブスク
   lifehack: ライフハック
+  review: 商品レビュー
   others: その他
 
 tags_mapping:
@@ -64,4 +65,5 @@ tags_mapping:
   subscription: サブスク
   lifehack: ライフハック
   furniture: 家具
+  homeappliance: 家電
   others: その他
