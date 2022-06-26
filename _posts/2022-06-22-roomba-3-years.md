@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  ルンバi7+（ゴミステーション付きロボット掃除機）を使って3年、結局お掃除ロボットは便利なのか？
+title:  半年間ゴミ捨て不要！ルンバi7+を使って3年、結局お掃除ロボットは便利なのか？
 date:   2022-06-22
 lastmod: 
 image: /assets/images/roomba3years1.png

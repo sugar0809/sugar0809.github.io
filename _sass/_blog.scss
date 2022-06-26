@@ -333,3 +333,193 @@ $post-li-sp-left-width: 38%;
     .pc { display: none !important; }
     .sp { display: block !important; }
 }
+
+/*=================================================================================
+	カエレバ・ヨメレバ・トマレバ
+=================================================================================*/
+
+.cstmreba {
+	width: 98%;
+	height:auto;
+	margin:36px 0;
+	font-family:'Lucida Grande','Hiragino Kaku Gothic ProN',Helvetica, Meiryo, sans-serif;
+	line-height: 1.5;
+	word-wrap: break-word;
+	box-sizing: border-box;
+	display: block;
+}
+/* WordPressで自動挿入されるPタグの余白を対処 */
+.cstmreba p {
+	margin: 0;
+	padding: 0;
+}
+.cstmreba a {
+	transition: 0.8s ;
+	color:#285EFF; /* テキストリンクカラー */
+}
+.cstmreba a:hover {
+	color:#FFCA28; /* テキストリンクカラー(マウスオーバー時) */
+}
+.booklink-box, .kaerebalink-box, .tomarebalink-box {
+	width: 100%;
+	background-color: #fff;  /* 全体の背景カラー */
+	overflow: hidden;
+	border: 1px solid #ddd; /* 外枠 */
+	border-radius: 0px;
+	box-sizing: border-box;
+	padding: 12px 8px;
+}
+/* サムネイル画像ボックス */
+.booklink-image,
+.kaerebalink-image,
+.tomarebalink-image {
+	width:150px;
+	float:left;
+	margin:0 14px 0 0;
+	text-align: center;
+}
+.booklink-image a,
+.kaerebalink-image a,
+.tomarebalink-image a {
+	width:100%;
+	display:block;
+}
+/* サムネイル画像 */
+.booklink-image a img, .kaerebalink-image a img, .tomarebalink-image a img {
+	margin:0 ;
+	padding: 0;
+	text-align:center;
+}
+.booklink-info, .kaerebalink-info, .tomarebalink-info {
+	overflow:hidden;
+	line-height:170%;
+	color: #333;
+}
+/* infoボックス内リンク下線非表示 */
+.booklink-info a,
+.kaerebalink-info a,
+.tomarebalink-info a {
+	text-decoration: none;	
+}
+/* 作品・商品・ホテル名 リンク */
+.booklink-name>a,
+.kaerebalink-name>a,
+.tomarebalink-name>a {
+	border-bottom: 1px dotted ;
+	font-size:16px;
+}
+/* powered by */
+.booklink-powered-date,
+.kaerebalink-powered-date,
+.tomarebalink-powered-date {
+	font-size:10px;
+	line-height:150%;
+}
+.booklink-powered-date a,
+.kaerebalink-powered-date a,
+.tomarebalink-powered-date a {
+	border-bottom: 1px dotted ;
+	color: #333;
+}
+.booklink-powered-date a:hover,
+.kaerebalink-powered-date a:hover,
+.tomarebalink-powered-date a:hover {
+	color:#333;
+}
+/* 著者・住所 */
+.booklink-detail, .kaerebalink-detail, .tomarebalink-address {
+	font-size:12px;
+}
+.kaerebalink-link1 img, .booklink-link2 img, .tomarebalink-link1 img {
+	display:none !important;
+}
+.kaerebalink-link1, .booklink-link2, .tomarebalink-link1 {
+	display: inline-block;
+	width: 100%;
+	margin-top: 5px;
+}
+.booklink-link2>div, 
+.kaerebalink-link1>div, 
+.tomarebalink-link1>div {
+	float:left;
+	width:31%;
+	min-width:125px;
+	margin:0.5% 1%;
+}
+/***** ボタンデザインここから ******/
+.booklink-link2 a, 
+.kaerebalink-link1 a,
+.tomarebalink-link1 a {
+	width: 100%;
+	display: inline-block;
+	text-align: center;
+	box-sizing: border-box;
+	font-size: 13px;
+	font-weight: bold;
+	line-height: 180%;
+	padding:3% 1%;
+	margin: 1px 0;
+	border-radius: 4px;
+	box-shadow: 0 2px 0 #ccc;
+	background: -moz-linear-gradient(top,#fafafa,#EEE);
+	background: -webkit-gradient(linear, left top, left bottom, from(#fafafa), to(#eee));
+}
+.booklink-link2 a:hover,
+.kaerebalink-link1 a:hover,
+.tomarebalink-link1 a:hover {
+	text-decoration: underline;
+}
+/* トマレバ */
+.tomarebalink-link1 .shoplinkrakuten a { color: #76ae25; }/* 楽天トラベル */
+.tomarebalink-link1 .shoplinkjalan a { color: #ff7a15; }/* じゃらん */
+.tomarebalink-link1 .shoplinkjtb a { color: #c81528; }/* JTB */
+.tomarebalink-link1 .shoplinkknt a { color: #0b499d; }/* KNT */
+.tomarebalink-link1 .shoplinkikyu a { color: #bf9500; }/* 一休 */
+.tomarebalink-link1 .shoplinkrurubu a { color: #000066; }/* るるぶ */
+.tomarebalink-link1 .shoplinkyahoo a { color: #ff0033; }/* Yahoo!トラベル */
+/* カエレバ */
+.kaerebalink-link1 .shoplinkyahoo a {color:#ff0033;} /* Yahoo!ショッピング */
+.kaerebalink-link1 .shoplinkbellemaison a { color:#84be24 ; }	/* ベルメゾン */
+.kaerebalink-link1 .shoplinkcecile a { color:#8d124b; } /* セシール */ 
+.kaerebalink-link1 .shoplinkwowma a { color:#ea5404; } /* Wowma */ 
+.kaerebalink-link1 .shoplinkkakakucom a {color:#314995;} /* 価格コム */
+/* ヨメレバ */
+.booklink-link2 .shoplinkkindle a { color:#007dcd;} /* Kindle */
+.booklink-link2 .shoplinkrakukobo a{ color:#d50000; } /* 楽天kobo */
+.booklink-link2  .shoplinkbk1 a { color:#0085cd; } /* honto */
+.booklink-link2 .shoplinkehon a { color:#2a2c6d; } /* ehon */
+.booklink-link2 .shoplinkkino a { color:#003e92; } /* 紀伊國屋書店 */
+.booklink-link2 .shoplinkebj a { color:#f8485e; } /* ebookjapan */
+.booklink-link2 .shoplinktoshokan a { color:#333333; } /* 図書館 */
+/* カエレバ・ヨメレバ共通 */
+.kaerebalink-link1 .shoplinkamazon a, 
+.booklink-link2 .shoplinkamazon a { color:#FF9901; } /* Amazon */
+.kaerebalink-link1 .shoplinkrakuten a , 
+.booklink-link2 .shoplinkrakuten a { color: #c20004; } /* 楽天 */
+.kaerebalink-link1 .shoplinkseven a, 
+.booklink-link2 .shoplinkseven a { color:#225496;} /* 7net */
+/***** ボタンデザインここまで ******/
+.booklink-footer {
+	clear:both;
+}
+/***  解像度480px以下のスタイル ***/
+@media screen and (max-width:480px){
+.booklink-image,
+.kaerebalink-image,
+.tomarebalink-image {
+	width:100%;
+	float:none;
+}
+.booklink-link2>div, 
+.kaerebalink-link1>div, 
+.tomarebalink-link1>div {
+	width: 49%;
+	margin: 0.5%;
+}
+.booklink-info,
+.kaerebalink-info,
+.tomarebalink-info {
+	text-align:center;
+	padding-bottom: 1px;
+}
+}
