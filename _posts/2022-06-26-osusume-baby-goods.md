@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  0~2歳までのおすすめ赤ちゃんグッズご紹介！
+title:  あってよかった！0~2歳までのおすすめ赤ちゃんグッズご紹介
 date:   2022-06-26
 lastmod: 
 image: /assets/images/baby_goods.png
